@@ -1,0 +1,11 @@
+{"messages":[{"role":"system","content":"Suggested cars: EQE, EQC, MAYBACH"},{"role":"user","content":"No, that's not what I wanted"},{"role":"assistant","content":"{\"anyMatches\":false}"}]}
+{"messages":[{"role":"system","content":"Suggested cars: EQE, EQC, MAYBACH"},{"role":"user","content":"Yes, I love EQS!"},{"role":"assistant","content":"{\"anyMatches\":false}"}]}
+{"messages":[{"role":"system","content":"Suggested cars: EQC, EQS, EQE"},{"role":"user","content":"EQS"},{"role":"assistant","content":"{\"chosenCars\":[\"EQS\"],\"anyMatches\":true}"}]}
+{"messages":[{"role":"system","content":"Suggested cars: EQC, EQS, EQE"},{"role":"user","content":"I would love to take EQE"},{"role":"assistant","content":"{\"chosenCars\":[\"EQE\"],\"anyMatches\":true}"}]}
+{"messages":[{"role":"system","content":"Suggested cars: EQC, MAYBACH, EQE"},{"role":"user","content":"I would love to take a look at all of them"},{"role":"assistant","content":"{\"chosenCars\":[\"EQC\",\"MAYBACH\",\"EQE\"],\"anyMatches\":true}"}]}
+{"messages":[{"role":"system","content":"Suggested cars: EQS, EQA, EQB"},{"role":"user","content":"I’m not interested in these options."},{"role":"assistant","content":"{\"anyMatches\":false}"}]}
+{"messages":[{"role":"system","content":"Suggested cars: EQE, EQS, EQB"},{"role":"user","content":"I prefer something more sporty."},{"role":"assistant","content":"{\"anyMatches\":false}"}]}
+{"messages":[{"role":"system","content":"Suggested cars: EQC, EQE, AMG EQS"},{"role":"user","content":"AMG EQS sounds interesting."},{"role":"assistant","content":"{\"chosenCars\":[\"AMG EQS\"],\"anyMatches\":true}"}]}
+{"messages":[{"role":"system","content":"Suggested cars: EQB, EQE, AMG EQE"},{"role":"user","content":"I’ll take a look at EQB and AMG EQE."},{"role":"assistant","content":"{\"chosenCars\":[\"EQB\",\"AMG EQE\"],\"anyMatches\":true}"}]}
+{"messages":[{"role":"system","content":"Suggested cars: EQS, EQC, Maybach EQS"},{"role":"user","content":"Maybach EQS is my choice."},{"role":"assistant","content":"{\"chosenCars\":[\"Maybach EQS\"],\"anyMatches\":true}"}]}
+{"messages":[{"role":"system","content":"Suggested cars: EQA, EQB, EQE"},{"role":"user","content":"I’d like to explore EQA."},{"role":"assistant","content":"{\"chosenCars\":[\"EQA\"],\"anyMatches\":true}"}]}
