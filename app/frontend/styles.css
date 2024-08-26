@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: #f2f6fa;
+}
+
+/* Main Gradio content wrapper */
+.gr-button {
+    background-color: #FF6F61 !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    font-size: 16px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+}
+
+.gr-button:hover {
+    background-color: #ff4a3c !important;
+}
+.gradio_container {
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+.gradio_header {
+  width: 100%;
+  /* Your styles for header */
+}
+
+.gradio_main {
+  flex-grow: 1; /* Grow to take available space */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.main-wrapper {
+  width: calc(100vw - 40px); /* Full width with some padding */
+  max-width: 1000px; /* Maximum width of the content */
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  background: linear-gradient(to right, #7fe786, #58a7fe);
+  color: white; /* Assuming you want white text on your gradient */
+  padding: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0; /* Remove default margins if any */
+}
