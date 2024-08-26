@@ -4,7 +4,6 @@
 if [ ! -d "venv" ]; then
     echo "Virtual environment not found! Creating one now..."
     python3 -m venv venv
-    exit 1
 fi
 
 # Activate the virtual environment
