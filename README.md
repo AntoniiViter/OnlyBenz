@@ -25,6 +25,7 @@ To launch the OnlyBenz project on your local machine, follow these steps:
 2. **Set Up the Project**:
    - Run the `setup_project.sh` script to set up the environment, install dependencies, and prepare the database:
    ```bash
+   chmod +x setup_project.sh 
    ./setup_project.sh
    ```
 
@@ -34,6 +35,7 @@ To launch the OnlyBenz project on your local machine, follow these steps:
 4. **Run the Project**:
    - Use the `run_project.sh` script to start the chatbot server:
    ```bash
+   chmod +x run_project.sh 
    ./run_project.sh
    ```
 
